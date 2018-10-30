@@ -52,7 +52,7 @@ describe('Recipes', function() {
         res.body.length.should.be.at.least(1);
         // each item should be an object with key/value pairs
         // for `id`, `name` and `checked`.
-        const expectedKeys = ['wrong', 'id', 'name', 'checked'];
+        const expectedKeys = ['id', 'name', 'checked'];
         res.body.forEach(function(item) {
           item.should.be.a('object');
           item.should.include.keys(expectedKeys);
