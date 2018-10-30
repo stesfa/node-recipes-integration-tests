@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: T8Phhhe/GPycKWCq/9t1ICtCERZpUZevDX6g0/ZZOc4iuOPHB+ibiBObjVN6s4rmpA122QZ7Vov3r5eb5dRB5gi05HWKjI4o1FXUfY88gcWJ6xGaLPpdVQGMwnUTpZXhl8HbSMreQb3frEp1oxU2HbDWAbfHPm5KA/O3ZSKGZV9SmIIwOEMwtelq5zdhPLupRNjjMgon9oHJEWA5MCvUj4XeNMgCfOpAqivdpIUUH7ffruOAQ7LBgJ5B5FuOM70kL7wXqQ4Yg7B205SgL6CqVQDTaUZprsK7pX5N4Z+p8KyjD33uFIV009fBcoeKHZvrKqmwZcleS/hjZPbA/D90UnQA5ZQhESnLu1lmZbCDOwpF41XmkD8yhcsx+s0ZA6pGoBlBXAGWJDFLQ7ZrhtW5fRQButbsnhix/ay0ofKRBy0a+0Gzhp99H+3CeyKvKv/m4taUEKKDpEoPBFXvuj6OSUkirXSJoY06YGR1RCRjyW8GQrF3OV3E6UM9GbiP6hLde1eDUg+fe3ULcAMGAqSIRjbx8FNeVJF/D63tuX3YHaVhAp7HiNewnyFZoraP43ccjq1Z6v90349jW2mXTzqGuB/+TAsKY6s+H6CFe5iXPrnQW3Mdp3tRC3fEnIKU58VG9Wg1qbrBKyNNGsHuGq4Zn0U1FUmkRa1CSixJxpCma+Q=
+  app: young-wave-72089
+  on:
+    repo: stesfa/node-shopping-list-integration-tests
